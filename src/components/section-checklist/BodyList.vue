@@ -64,7 +64,7 @@ const updateText = (todoToUpdate) => {
 
     &:checked + .check__box::after {
       content: "";
-      background: url(../../img/svg/check.svg);
+    background-image: url('../../img/svg/check.svg');
       background-position: center;
       background-repeat: no-repeat;
       width: 100%;
